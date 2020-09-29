@@ -1,5 +1,5 @@
 # android-client-serialized-data-transmission-using-tcp
-In this lab you will be able to transmit serialized data using TCP in ecosystems made up of Eclipse and Android nodes. This repository contains the ANDROID NODE.
+In this lab you will be able to transmit serialized data using TCP in ecosystems made up of Eclipse and Android nodes. This repository contains the ANDROID NODE (client).
 
 The exercise consists of making a system protected by user and password, so that the client must send credentials registered in the server to be able to enter.
 
