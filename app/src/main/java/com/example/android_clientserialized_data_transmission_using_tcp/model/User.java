@@ -3,7 +3,6 @@
  * nicolas.penagosm98@gmail.com
  **~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-
 package com.example.android_clientserialized_data_transmission_using_tcp.model;
 
 public class User {

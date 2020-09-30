@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
                     try {
 
-                        socket = new Socket("192.168.0.13", 5000);
+                        socket = new Socket("192.168.20.25", 5000);
                         InputStream inputStream = socket.getInputStream();
                         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
                         reader = new BufferedReader(inputStreamReader);
