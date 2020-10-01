@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
     // Logic methods
     // -------------------------------------
     public boolean checkData(String username, String password){
-        return !username.equals("") && !username.equals("");
+        return !username.equals("") && !password.equals("");
     }
 
 }

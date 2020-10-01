@@ -1,8 +1,3 @@
-/**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * @author Nicolás Penagos Montoya
- * nicolas.penagosm98@gmail.com
- **~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
 package com.example.android_clientserialized_data_transmission_using_tcp;
 
 import androidx.appcompat.app.AppCompatActivity;

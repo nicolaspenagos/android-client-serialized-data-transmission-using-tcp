@@ -8,6 +8,7 @@
     android:id="@+id/layout"
     tools:context=".WelcomeActivity">
 
+
     <TextView
         android:id="@+id/welcomeTextView"
         android:layout_width="wrap_content"
@@ -54,4 +55,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.75" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
