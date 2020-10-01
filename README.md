@@ -12,6 +12,12 @@ The exercise consists of making a system protected by user and password, so that
  <li type="disc">theKiller,Killer9820</li>
 </ul>
 
+## User flow
+
+![tcp](https://user-images.githubusercontent.com/47872252/94767349-ba7eec00-0371-11eb-9906-703e17b60851.jpg)
+
+
+
 ## Made by
   <ul>
   <li><div><a href="https://github.com/nicolaspenagos" title="Nicolas Penagos">Nicolás Penagos</a>   </div></li>
