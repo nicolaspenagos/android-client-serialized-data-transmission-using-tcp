@@ -28,6 +28,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.net.InetAddress;
 import java.net.Socket;
 
 public class MainActivity extends AppCompatActivity {
@@ -135,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
                     try {
 
-                        socket = new Socket("192.168.20.25", 5000);
+                        socket = new Socket("192.168.0.19", 5000);
                         InputStream inputStream = socket.getInputStream();
                         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
                         reader = new BufferedReader(inputStreamReader);
@@ -162,7 +163,17 @@ public class MainActivity extends AppCompatActivity {
                                 });
 
                             }else{
-                                runOnUiThread(()->Toast.makeText(this, "Incorrect username or password", Toast.LENGTH_SHORT).show());
+                                runOnUiThread(()->{
+
+                                    passwordEditText.setText("");
+                                    usernameEditText.setText("");
+                                    Toast.makeText(this, "Incorrect username or password", Toast.LENGTH_SHORT).show();
+
+                                });
+
+
+
+
                             }
 
 
